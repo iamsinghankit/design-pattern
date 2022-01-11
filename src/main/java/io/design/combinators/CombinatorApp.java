@@ -1,11 +1,11 @@
-package io.example.combinators;
+package io.design.combinators;
 
 
-import static io.example.combinators.UserValidation.nonEmptyName;
-import static io.example.combinators.UserValidation.validateEmail;
+import static io.design.combinators.UserValidation.nonEmptyName;
+import static io.design.combinators.UserValidation.validateEmail;
 
 /**
- * @author Ankit Singh
+ * @author iamsinghankit
  */
 public class CombinatorApp {
     public static void main(String[] args) {
@@ -21,4 +21,5 @@ public class CombinatorApp {
         divyaResult.reason().ifPresent(System.out::println);
 
     }
+
 }

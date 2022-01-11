@@ -1,14 +1,14 @@
-package io.example.combinators;
+package io.design.combinators;
 
 
 import java.util.function.Function;
 import java.util.function.Predicate;
 
-import static io.example.combinators.ValidationResult.invalid;
-import static io.example.combinators.ValidationResult.valid;
+import static io.design.combinators.ValidationResult.invalid;
+import static io.design.combinators.ValidationResult.valid;
 
 /**
- * @author Ankit Singh
+ * @author iamsinghankit
  */
 public interface UserValidation extends Function<User, ValidationResult> {
 

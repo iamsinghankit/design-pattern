@@ -1,7 +1,7 @@
-package io.example.combinators;
+package io.design.combinators;
 
 /**
- * @author Ankit Singh
+ * @author iamsinghankit
  */
 public class User {
     private final String name;

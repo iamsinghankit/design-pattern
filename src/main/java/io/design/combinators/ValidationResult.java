@@ -1,9 +1,9 @@
-package io.example.combinators;
+package io.design.combinators;
 
 import java.util.Optional;
 
 /**
- * @author Ankit Singh
+ * @author iamsinghankit
  */
 public interface ValidationResult {
 
